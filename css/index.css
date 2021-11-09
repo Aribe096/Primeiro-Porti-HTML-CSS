@@ -51,11 +51,3 @@ nav{
     transform: scale(1.1);
 }
 
-a ::before{
-    display: inline-flex;
-    content: "";
-    background-color: #F25A70;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
