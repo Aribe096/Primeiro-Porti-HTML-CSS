@@ -59,3 +59,14 @@ nav{
     text-shadow: 4px 4px 0px #000;
 
 }
+.sub-title{
+    font-size: 25px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 0px #000;
+    line-height: 30px;
+    position: absolute;
+    width: 540px;
+    height: 30px;
+    
+}
