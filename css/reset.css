@@ -1,3 +1,15 @@
+body{
+    font-family: "Fira code", Arial, Helvetica, sans-serif;
+}
+
 body, h1, h2, h3{
     margin: 0;
+}
+
+.button2{
+    border: 0px;
+}
+
+.button-header{
+    border: 0px;
 }
