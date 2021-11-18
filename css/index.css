@@ -91,6 +91,14 @@
     margin-bottom: 25px;
 
 }
+
+.title.-second{
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+    
+}
+
 .sub-title{
     font-size: 25px;
     font-family: 'Press Start 2P', sans-serif;
@@ -103,7 +111,22 @@
     box-shadow: 10px 10px 0px #000;
     text-align: center;
     padding: 40px 25px;
+    
 }
+
+
+.skills{
+    background-color: #4C5B84;
+    height: 37vw;
+    
+}
+
+.second-section{
+    
+   
+    
+}
+
 
 @media (max-width: 900px){
     .title,.sub-title{
