@@ -117,6 +117,32 @@
     border-bottom: 10px solid #000;
 }
 
+.skill-tec{
+    font-family: 'Press Start 2P', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    
+}
+
+
+.progress-bar{
+    background-color: #62C370;
+    border: 5px solid #000;
+    height: 40px;
+    box-sizing: border-box;
+}
+.progress-bar::-webkit-progress-bar{
+    background-color: #fff;
+}
+
+.skill-tec .skill-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
 @media (max-width: 900px){
     .title,.sub-title{
         font-size: 4vw;
