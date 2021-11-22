@@ -93,6 +93,7 @@
 .title.-second{
     color: #fff;
     text-align: center;
+    margin-bottom: 70px;
 }
 
 .sub-title{
@@ -116,15 +117,39 @@
     padding-bottom: 90px;
     border-bottom: 10px solid #000;
 }
+.section.-two{
+    background-color: #3A4042;
+}
+
+.wrapper-skill{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.wrapper-skill .skill-tec{
+    width: 430px;
+    height: 150px;
+}
 
 .skill-tec{
     font-family: 'Press Start 2P', sans-serif;
     color: #fff;
     font-size: 20px;
     display: flex;
-    
+    align-items: center;
+
+}
+.skill-tec .title-skills{
+    margin-bottom: 10px;
 }
 
+.skill-tec .icon{
+    margin-right: 5px;
+    
+}
 
 .progress-bar{
     background-color: #62C370;
@@ -142,6 +167,12 @@
     justify-content: space-around;
     margin-left: 10px;
 }
+
+.project-icon{
+    width: 280px;
+    height: 270px;
+}
+
 
 @media (max-width: 900px){
     .title,.sub-title{
