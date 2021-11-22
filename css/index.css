@@ -168,6 +168,15 @@
     margin-left: 10px;
 }
 
+.card-project{
+    display: flex;
+    background-color: #3A4042;
+    justify-content: center;
+    box-shadow: 1px 1px 10px #000;
+    width: 220px;
+    height: 230px;
+}
+
 .project-icon{
     width: 280px;
     height: 270px;
