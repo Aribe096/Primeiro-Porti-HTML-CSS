@@ -168,6 +168,12 @@
     margin-left: 10px;
 }
 
+.wrapper-card{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
 .card-project{
     display: flex;
     background-color: #3A4042;
@@ -175,6 +181,13 @@
     box-shadow: 1px 1px 10px #000;
     width: 220px;
     height: 230px;
+    margin-top: 90px;
+    
+}
+
+.card-project:hover{
+    
+    transform: rotateZ(10deg)
 }
 
 .project-icon{
