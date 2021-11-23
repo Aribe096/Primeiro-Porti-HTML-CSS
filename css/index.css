@@ -93,7 +93,7 @@
 .title.-second{
     color: #fff;
     text-align: center;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 .sub-title{
@@ -102,6 +102,12 @@
     color: #fff;
     text-shadow: 4px 4px 0px #000; 
 }
+
+.sub-title.-second{
+    font-size: 20px;
+    text-align: center;
+}
+
 .box-page1{
     display: inline-block;
     background-color: #3A4042;
@@ -121,12 +127,17 @@
     background-color: #3A4042;
 }
 
+.section.-three{
+    background-color: #7C5E99;
+}
+
 .wrapper-skill{
     display: flex;
     flex-wrap: wrap;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
     
 }
 .wrapper-skill .skill-tec{
@@ -179,7 +190,7 @@
     background-color: #3A4042;
     justify-content: center;
     box-shadow: 1px 1px 10px #000;
-    width: 220px;
+    max-width: 220px;
     height: 230px;
     margin-top: 90px;
     
@@ -195,6 +206,14 @@
     height: 270px;
 }
 
+.about-box{
+ max-width: 181px;
+ 
+}
+
+.about-me{
+    max-width: 600px;
+}
 
 @media (max-width: 900px){
     .title,.sub-title{
