@@ -138,6 +138,11 @@
     
 }
 
+.section.-for{
+    background-color: #3A4042;
+    height: auto;
+}
+
 .wrapper-skill{
     display: flex;
     flex-wrap: wrap;
@@ -240,6 +245,20 @@
     border: 3px solid #000;
 }
 
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    
+}
+
+.main-footer .action{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 @media (max-width: 900px){
     .title,.sub-title{
