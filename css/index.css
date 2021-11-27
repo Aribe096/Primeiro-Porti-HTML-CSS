@@ -50,10 +50,18 @@
     font-size: 20px;
 }
 
+.button2.-submit{
+    width: 100%;
+}
+
 .button2:hover{
     background-color: #F25A70;
     color: black;
     transform: scale(1.2);
+}
+
+.button2.-submit:hover{
+    transform: scale(1.0);
 }
 
 .banner .box-page1{
