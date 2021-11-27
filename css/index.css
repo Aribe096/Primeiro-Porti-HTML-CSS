@@ -245,6 +245,13 @@
     border: 3px solid #000;
 }
 
+.main-label{
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 40px;
+}
 
 .main-footer{
     display: flex;
