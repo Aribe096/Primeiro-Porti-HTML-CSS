@@ -15,11 +15,11 @@
 <body>
     <header class="header">
         <a href="index.html"><img src="assets/img/logo.png" alt="page-logo"></a>
-        <nav>
-            <a class="button-header" href="">Skills</a> 
-            <a class="button-header" href="">Projetos</a> 
-            <a class="button-header" href="">Sobre</a> 
-            <a class="button-header" href="">Contatos</a> 
+        <nav class="menu">
+            <a class="button-header" href="#skills">Skills</a> 
+            <a class="button-header" href="#projects">Projetos</a> 
+            <a class="button-header" href="#sobre">Sobre</a> 
+            <a class="button-header" href="#contact">Contatos</a> 
             <a class="button2" href="">Download CV</a> 
         </nav>
     </header>
@@ -35,7 +35,7 @@
             </div>
         </div>
     </section>
-    <section class="section">
+    <section class="section" id="skills">
             <h1 class="title -second">Skills</h1>
             <h2 class="sub-title -second">Tecnologias que você pode contar comigo</h2>
             <div class="wrapper-skill">
@@ -76,7 +76,7 @@
                     </article>
             </div>
     </section>
-    <section class="section -two">
+    <section class="section -two" id="projects">
             <h1 class="title -second">Projetos</h1>
             <h2 class="sub-title -second">Aqui estão alguns dos meus projetos e outros que já participei</h2>
             
@@ -98,7 +98,7 @@
                 </a>
             </div>
     </section>
-    <section class="section -three">
+    <section class="section -three" id="sobre">
             <h1 class="title -second">Sobre</h1>
             <div class="wrapper-about-me">
                 <article class="about-me">
@@ -113,15 +113,15 @@
                 </div>
             </div>
     </section>
-    <section class="section -for">
+    <section class="section -for" id="contact">
         <h1 class="title -second">Contato</h1>
         <form class="main-form">
             <label class="main-label" for="name" >Nome</label>
-            <input class="main-input" id="name" name="name" type="text">
+            <input class="main-input" id="name" name="name" type="text" required>
             <label class="main-label" for="email">E-mail</label>
-            <input class="main-input" id="email" name="email" type="email">
+            <input class="main-input" id="email" name="email" type="email" required>
             <label class="main-label" for="message">Mensagem</label>
-            <textarea class="main-input -textarea" name="message" id="message">Digite sua mensagem</textarea>
+            <textarea class="main-input -textarea" name="message" id="message" required>Digite sua mensagem</textarea>
             <button class="button2 -submit" id="btn-submit" type="submit">Enviar</button>
         </form>
     </section>
@@ -133,6 +133,6 @@
             <img src="assets/img/github-footer.png" alt="logo do github">
         </a>
     </footer>
-
+<script src="JavaScript/scrollEfect.js"></script>
 </body>
 </html>
